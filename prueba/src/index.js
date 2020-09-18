@@ -2,6 +2,6 @@ import React from "react"
 import ReactDOM from "react-dom"
 //components
 import TodoContainer from "./components/TodoContainer"
-const element = <h1>Hello from Create React App</h1>
+import "./styles/App.css"
 
 ReactDOM.render(<TodoContainer/>, document.getElementById("root"))
