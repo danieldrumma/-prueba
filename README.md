@@ -4,7 +4,7 @@ another notes app
 goals -
 - learn react
 - build something that's easy to use
-- build smart.
+- build smart
 
 roadmap
 - tweeet out note
