@@ -1,5 +1,5 @@
 import React from "react"
-import TodosList from "./TodosList"
+import NoteRepository from "./NoteRepository"
 import Header from "./Header"
 import InputTodo from "./InputTodo"
 
@@ -79,7 +79,7 @@ class TodoContainer extends React.Component {
             <div className="container">
                 <Header />
                 <InputTodo addTodoProps = {this.addTodoItem}/>
-                <TodosList 
+                <NoteRepository 
                 todos={this.state.todos} 
                 handleChangeProps={this.handleChange}
                 deleteTodoProps={this.delTodo}

@@ -3,8 +3,8 @@ import React from "react"
 const Header = () => {
     return (
             <header>
-                <h1>Simple Todo App</h1>
-                <p>Please add to-dos through the input field</p>
+                <h1>Another Notes App</h1>
+                <p>Please add notes through the input field</p>
             </header>
     )
 }

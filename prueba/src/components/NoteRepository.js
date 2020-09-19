@@ -1,12 +1,13 @@
 import React from "react";
-import TodoItem from "./TodoItem";
+import NoteCard from "./NoteCard";
+import "./NoteRepository.css"
 
-class TodosList extends React.Component {
+class NoteRepository extends React.Component {
     render() {
         return (
-            <div>
+            <div className="grid-container">
                 {this.props.todos.map(todo => (
-                    <TodoItem 
+                    <NoteCard 
                     key={todo.id} 
                     todo={todo}
                     handleChangeProps={this.props.handleChangeProps}
@@ -18,4 +19,4 @@ class TodosList extends React.Component {
     }
 }
 
-export default TodosList
+export default NoteRepository

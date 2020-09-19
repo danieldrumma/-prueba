@@ -1,0 +1,24 @@
+.note-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 80%;
+  border-radius: 25px;
+  height: 100%;
+  margin-bottom: 20%;
+  position:relative;
+  }
+  .note-card input {
+    margin-right: 15px;
+  }
+ .note-card button {
+    background: #d35e0f;
+    color: #fff;
+    border: 1px solid #d35e0f;
+    padding: 3px 7px;
+    cursor: pointer;
+    float: right;
+    outline: none;
+  }
+  .container {
+    padding: 15px 16px 15px 15px;
+  }
