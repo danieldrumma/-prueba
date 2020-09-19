@@ -7,7 +7,7 @@ goals -
 - build smart
 
 roadmap
-- tweeet out note
+- tweet out note
 - email note
 - tags for categorization
 - auto suggest tags - use topic matching?
