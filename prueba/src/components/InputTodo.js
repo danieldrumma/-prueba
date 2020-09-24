@@ -1,4 +1,5 @@
 import React, { Component } from "react"
+import "./InputTodo.css"
 
 
 // holds state --- class component
@@ -28,20 +29,22 @@ class InputTodo extends Component {
     render() {
         return (
             <form onSubmit={this.handleSubmit} className="form-container">
-                <input 
+                <textarea
                     type="text"
-                    placeholder="Add Todo..." 
+                    placeholder="add another note!" 
                     value={this.state.title} 
                     onChange={this.onChange} 
                     name="title"
-                />
-                <input 
+                    className="note-input"
+                ></textarea>
+                <textarea
                     type="text"
-                    placeholder="Add tag..." 
+                    placeholder="add another tag!" 
                     value={this.state.tag} 
                     onChange={this.onChange} 
                     name="tag"
-                />
+                    className="tag-input"
+                ></textarea>
                 <input type="submit" value="Submit"/>
             </form>
         )

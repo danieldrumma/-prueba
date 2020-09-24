@@ -3,4 +3,14 @@
     position: absolute;
     right: 0;
     bottom: 0;
+    margin-bottom: 3%;
+}
+
+.action-items {
+    list-style: none;
+    display: inline-flex;
+}
+
+.action-item {
+    padding: .5%;
 }

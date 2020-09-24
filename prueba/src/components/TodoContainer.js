@@ -70,7 +70,7 @@ class TodoContainer extends React.Component {
             tag: tag
         };
         this.setState({
-            todos: [...this.state.todos, newTodo]
+            todos: [newTodo, ...this.state.todos]
         })
     }
 

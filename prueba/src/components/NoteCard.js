@@ -16,22 +16,31 @@ class NoteCard extends React.Component {
           
         return <div className="note-card">
                     <div className="container">
-                        <input 
+
+                        {/* <input 
                         type="checkbox" 
                         checked={this.props.todo.completed}
                         //both utilize props to change state
                         onChange={() => this.props.handleChangeProps(this.props.todo.id)} 
-                        />
+                        /> */}
+
                         <button onClick={() => this.props.deleteTodoProps(this.props.todo.id)}>
-                        Delete
+                            <div id="orangeBox">
+                                <span id="x">X</span>
+                            </div>
                         </button>
-                        <span style={this.props.todo.completed ? completedStyle : null}>
-                        {this.props.todo.title}
+                        
+                        <div className="note">
+                        <span>
+                            {this.props.todo.title}
                         </span>
+                        </div>
                         <NoteAction 
-                        textProp={this.props.todo.title}/>
+                        textProp={this.props.todo.title}
+                        />
+                        
                     </div>
-            </div>
+                </div>
     }
 }
 
