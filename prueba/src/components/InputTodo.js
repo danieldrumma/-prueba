@@ -28,7 +28,7 @@ class InputTodo extends Component {
 
     render() {
         return (
-            <form onSubmit={this.handleSubmit} className="form-container">
+            <form onSubmit={this.handleSubmit} className="form-container" id="form">
                 <textarea
                     type="text"
                     placeholder="add another note!" 
@@ -45,7 +45,9 @@ class InputTodo extends Component {
                     name="tag"
                     className="tag-input"
                 ></textarea>
-                <input type="submit" value="Submit"/>
+               <button name="mysubmitbutton" id="mysubmitbutton" type="submit" class="circle">  
+                </button>
+                
             </form>
         )
 
